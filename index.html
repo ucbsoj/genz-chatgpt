@@ -5,13 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    
+      #lead-image{
+        background-image:url('images/placeholder.jpg');  /* Lead image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      #header-container{
+        background-color: #747E7E;
+      }
+      
+      .vh-200{
+        height: 200vh;
+      }
+      
+
+    
+    </style>
   </head>
   <body>
     
+    <div class="container-fluid position-relative">
+      <div class="row vh-200">
+        <div id="header-container" class="col-sm-6 vh-100">
+          
+          <header class="vh-100 text-light text-center d-flex flex-column justify-content-center">
+            <h1>How Gen-Z is using Chat GPT</h1>
+            <p class="lead">Something something something</p>
+          </header>
+          
+          <div class="vh-100 d-flex flex-column justify-content-center">
+            <h2>Try it for yourself...</h2>
+            <p class="fs-5">You need help on a term paper.</p>
+            <form>
+              <div class="form-control bg-secondary-subtle">
+                <label for="first-option" class="mt-0">Who should you ask?</label>
+                <select class="form-select" name="first-option" aria-label="first-option">
+                  <option selected>Choose option</option>
+                  <option value="1">Your professor</option>
+                  <option value="2">A fellow student</option>
+                  <option value="3">Your parents</option>
+                </select>
+                <label for="second-option" class="mt-4">How should you frame it?</label>
+                <select class="form-select" name="second-option" aria-label="second-option">
+                  <option selected>Choose option</option>
+                  <option value="1">I need your advice</option>
+                  <option value="2">I'm really stuck on an issue</option>
+                  <option value="3">I'm desperate, please help me</option>
+                </select>
+                <label for="third-option" class="mt-4">What reason do you give?</label>
+                <select class="form-select" name="third-option" aria-label="third-option">
+                  <option selected>Choose option</option>
+                  <option value="1">I have writer's block</option>
+                  <option value="2">I didn't study</option>
+                  <option value="3">I was abducted by aliens</option>
+                </select>
+              </div>
+            </form>
+            <div id="response" class="mt-4"></div>
+          </div>
+        </div>
+        <!-- Going to be your image. Set the image up in the CSS at the top -->
+        <div class="col-sm-6 d-sm-block d-none vh-100 sticky-sm-top" id="lead-image">
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
     
-    <h1>Hello, world!</h1>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
+        
+            <h2>Something something something</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tellus ultrices, blandit tellus ut, suscipit neque. Suspendisse ultricies justo in nulla iaculis euismod. Suspendisse congue ultrices velit, non placerat sapien dictum nec. Vestibulum viverra ligula id viverra pellentesque. Etiam dignissim, arcu a fringilla lobortis, nulla tellus congue neque, id iaculis nibh ipsum a sapien. Duis id interdum enim, quis venenatis nisi. Maecenas bibendum felis at venenatis facilisis. Fusce commodo vulputate neque, et pellentesque eros euismod eget. Suspendisse potenti. Maecenas lacinia nunc a mi pharetra, sed sodales ipsum pellentesque. Sed facilisis interdum tellus nec consectetur. Proin at eros orci.</p>
+
+            <p>Vivamus metus magna, semper id imperdiet a, sollicitudin in nisi. Maecenas fermentum elit tortor, accumsan pellentesque mi luctus at. Maecenas quis dictum mi, nec vulputate enim. Curabitur sed odio at sapien porta lobortis. Sed laoreet dui sodales dolor finibus malesuada. Nam accumsan scelerisque libero, ac pharetra est tempus a. Vivamus eget semper dolor. Vestibulum libero nisl, pretium posuere finibus vitae, molestie eget tortor.</p>
+
+            <p>Morbi ultricies pellentesque nunc sit amet maximus. Praesent at facilisis dolor. Curabitur interdum quam arcu, vel egestas sem faucibus quis. Nullam magna lacus, laoreet eget nibh ut, imperdiet tempus lectus. Aenean sit amet quam lobortis, pellentesque mi at, laoreet dui. Phasellus ultrices velit vel enim tincidunt, nec sodales est lacinia. Phasellus ac tellus euismod, finibus dolor eu, volutpat urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+            <p>Nullam ornare velit non accumsan egestas. Maecenas aliquam enim sit amet sagittis vestibulum. Morbi a arcu tincidunt, lacinia nulla vel, tincidunt leo. In hac habitasse platea dictumst. Ut pulvinar porttitor dui at dignissim. Pellentesque a justo blandit, lobortis orci tristique, viverra lectus. Suspendisse vel enim in lacus scelerisque dictum at quis velit. Pellentesque ut purus vitae nunc ornare tincidunt. Aenean in commodo nulla. In placerat nec lectus nec fermentum. Etiam dignissim tortor et mi dignissim, nec condimentum sapien ullamcorper. Donec in tortor vulputate sem auctor vehicula ac non lectus. Pellentesque non enim risus.</p>
+
+            <p>Duis fringilla lorem sed placerat vehicula. Morbi tempus erat nec velit lobortis, et varius justo malesuada. Aenean rutrum dolor augue, vel vehicula quam rhoncus eu. Phasellus eu ante ac neque imperdiet eleifend mattis ac ante. Duis auctor pulvinar mi, placerat vehicula sapien faucibus sit amet. Vivamus egestas rhoncus neque, et pharetra velit mattis ut. Etiam placerat posuere ex rhoncus tempor. In eleifend dictum quam, quis luctus velit eleifend quis. In tristique interdum lectus et tristique. Vivamus venenatis, quam vitae molestie lacinia, risus elit tincidunt lectus, tincidunt finibus lacus magna vitae leo. Aliquam in viverra diam.</p>
+        
+        </div>
+      </div>
+    </div>
+    
     
     <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+    $(function(){
+      
+      
+      $("select").on("change", function(){
+        let selected = false;
+        $("select").each(function(i,e){
+          if($(this).val() == $("option", this).val()){
+            selected = true;
+          }
+        })
+        if(selected === false){
+          
+          console.log("works")
+          
+          let text = "Duis fringilla lorem sed placerat vehicula. Morbi tempus erat nec velit lobortis, et varius justo malesuada. Aenean rutrum dolor augue, vel vehicula quam rhoncus eu. Phasellus eu ante ac neque imperdiet eleifend mattis ac ante. Duis auctor pulvinar mi, placerat vehicula sapien faucibus sit amet. Vivamus egestas rhoncus neque, et pharetra velit mattis ut."
+          
+          let i = 0;
+          
+          function typeWriter(){
+            if(i < text.length){
+              $("#response").append(text.charAt(i));
+              i++;
+              setTimeout(typeWriter, 15);
+            }
+          }
+          $("#response").text("");
+          typeWriter();
+          
+          
+        }
+      });
+      
+    })
+    </script>
   </body>
 </html>
