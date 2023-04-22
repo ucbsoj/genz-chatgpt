@@ -3,4 +3,5 @@ Aria Yang
 
 How GenZ uses Chat GPT in novel ways.
 
-view demo here: [https://ucbsoj.github.io/genz-chatgpt/](https://ucbsoj.github.io/genz-chatgpt/)
+view demo here: [https://ucbsoj.github.io/genz-chatgpt/](https://ucbsoj.github.io/genz-chatgpt/index.html)
+https://ucbsoj.github.io/genz-chatgpt/index.html
