@@ -47,14 +47,17 @@
           background-color: #000000;
         }
         .vh-200{
-          height: 200vh;
+          min-height: 200vh;
+        }
+        .vh-300{
+          min-height: 300vh;
         }
         .card img{
           cursor: pointer;
         }
       </style>
     </head>
-    <div class="container-fluid position-relative pb-5 mb-5">
+    <div class="container-fluid pb-5 mb-5 vh-300">
       <div class="row vh-100">
         <div id="header-container" class="col-sm-6 vh-100">
 
@@ -74,9 +77,9 @@
           <p>&nbsp;</p>
         </div>
       </div>
-      <div class="row vh-200">
-        <div class="col-sm-6 col-12">
-          <div class="vh-100 d-flex flex-column justify-content-center px-5 sticky-top">
+      <div class="row vh-200 clearfix">
+        <div class="col-sm-6 col-12 overflow-hidden">
+          <div class="vh-100 d-flex flex-column justify-content-center px-5">
 
             <h2>Case Study: Emma asks Stefan to the prom</h2>
 
@@ -99,7 +102,7 @@
             <p>Stefan</p>
           </div>
         </div>
-        <div class="col-sm-6 col-12 p-0">
+        <div class="col-sm-6 col-12 p-0 overflow-hidden">
           <div style="text-align:center;">
             <img src="images/emma1.jpeg" alt="image 1" class="img-fluid" />
             <img src="images/emma.jpeg" alt="image 2" class="img-fluid" />
@@ -113,7 +116,7 @@
               <div class="form-control bg-secondary-subtle">
                 <label for="first-option" class="mt-0">Tell Me About</label>
                 <select class="form-select" name="first-option" aria-label="first-option">
-                  <option selected>What is GPT?</option>
+                  <option selected>Choose</option>
                   <option value="1">What is ChatGPT?</option>
                   <option value="2">What cool Ai Chatbots are out there?</option>
                   <option value="3">Why Should I Care about ChatGPT</option>
