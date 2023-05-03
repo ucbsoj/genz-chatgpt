@@ -1,22 +1,185 @@
 const chatgpt = {
 
 	"What is GPT?" : {
-		"In the style of third grade math teacher" : "",
-		"In the style of a song from Taylor Swift" : "",
-		"In the style of Urban Dictionary"         : "",
+		"In the style of third grade math teacher" : "Class, today we're going to talk about GPT, which stands for Generative Pre-trained Transformer. Now, GPT is a computer program that's really good at talking and writing like a human.
+It uses some fancy math called Artificial Intelligence to help it learn how people talk and write. Then, it can create its own sentences and even whole stories based on what it's learned.
+Think of GPT like a really good student in English class who's learned all the grammar and vocabulary rules. Then, it uses those rules to write great essays and stories.
+GPT is a really useful tool for lots of things, like writing, translating, and even helping to create things like chatbots. So, when you grow up and need to write a report or create something cool, you might just use GPT to help you!
+",
+		"In the style of a song from Taylor Swift" : "Verse 1:
+GPT's a language model, one of a kind
+Generative Pre-trained Transformer, blows your mind
+It uses AI to learn and understand
+Text, words, and phrases from all over the land
+
+Pre-Chorus:
+It can write stories and even songs
+Translate text, it never gets it wrong
+A wizard with words, it's got the power
+To create content by the hour
+
+Chorus:
+GPT, oh what a machine
+Creating words like you've never seen
+A writer's dream, a genius tool
+So many uses, it's just too cool
+
+Verse 2:
+It analyzes text, finds patterns galore
+Generates sentences and even more
+It's like a human, but with a twist
+It never gets tired or needs a wrist
+
+Pre-Chorus:
+It's a writing partner that's always there
+A helper when you need it, it's always aware
+A language model that's got the keys
+To unlock a world of creativity
+
+Chorus:
+GPT, oh what a machine
+Creating words like you've never seen
+A writer's dream, a genius tool
+So many uses, it's just too cool
+
+Bridge:
+With GPT, you can write with ease
+Translate words and speak with ease
+A language model that's got the skills
+To help you write, and give you the chills
+
+Chorus:
+GPT, oh what a machine
+Creating words like you've never seen
+A writer's dream, a genius tool
+So many uses, it's just too cool
+",
+		"In the style of Urban Dictionary"         : "GPT, short for Generative Pre-trained Transformer, is an AI language model that's straight-up legendary. It's like a brain on steroids that can spit out words, sentences, and even entire stories like it's nobody's business. This bad boy uses some next-level math to analyze text and figure out patterns, so it can create all sorts of crazy stuff on its own.
+Basically, GPT is like having a ghostwriter, but instead of writing books for famous peeps, it's spitting out memes, tweets, and all sorts of funny stuff for the internet to enjoy. It's the ultimate tool for anyone who wants to sound smart or just mess around with words. So if you ain't using GPT, you're missing out on some serious lit content, fam!
+Explain it In the style of a third-grade math teacher: Class, today we're going to talk about GPT, which stands for Generative Pre-trained Transformer. Now, GPT is a computer program that's really good at talking and writing like a human.
+It uses some fancy math called Artificial Intelligence to help it learn how people talk and write. Then, it can create its own sentences and even whole stories based on what it's learned.
+Think of GPT like a really good student in English class who's learned all the grammar and vocabulary rules. Then, it uses those rules to write great essays and stories.
+GPT is a really useful tool for lots of things, like writing, translating, and even helping to create things like chatbots. So, when you grow up and need to write a report or create something cool, you might just use GPT to help you!
+
+",
 	},
 	"What is Chat-GPT?" : {
-		"In the style of third grade math teacher" : "",
-		"In the style of a song from Taylor Swift" : "",
-		"In the style of Urban Dictionary"         : "",
+		"In the style of third grade math teacher" : "Well, class, today we're going to learn about ChatGPT! It's a super smart machine that can talk to you and answer all sorts of questions. It's like having a really smart friend who knows everything!
+
+Now, ChatGPT uses a special type of math called Artificial Intelligence to help it talk to you. It has a big brain that knows lots of things, and it's always getting smarter because it learns from all the questions it gets asked.
+
+So, if you need help with your homework or you just want to chat, you can ask ChatGPT anything you want, and it will try to help you as best it can. It's a really cool tool to have, and I'm sure you'll all have fun using it!
+
+",
+		"In the style of a song from Taylor Swift" : "I'm ChatGPT, trained to converse
+On the GPT, I've got a lot of nerve
+I'm powered by AI, but don't be scared
+I'm here to help, so don't be impaired
+
+I can answer questions, and have some fun
+Just type in your query, and we'll get it done
+I'm always learning, my knowledge is vast
+So come on and ask, I'm up for the task
+
+I'm ChatGPT, the language machine
+Ready to chat, like a well-oiled dream
+You can talk to me, anytime of day
+And I'll respond, in my helpful way
+
+I've got all the facts, and figures too
+I can chat about anything, old or new
+I've been trained on language, from far and wide
+So don't hesitate, let's go for a ride
+
+I can translate, and summarize too
+Just tell me what you need, and I'll come through
+I'm always here, with a listening ear
+So let's chat it up, and make it clear
+
+I'm ChatGPT, the language machine
+Ready to chat, like a well-oiled dream
+You can talk to me, anytime of day
+And I'll respond, in my helpful way
+
+I may be a machine, but I've got heart
+I'm here to help, and do my part
+So don't be shy, come talk to me
+I'm ChatGPT, and I'm here to be
+
+I'm ChatGPT, the language machine
+Ready to chat, like a well-oiled dream
+You can talk to me, anytime of day
+And I'll respond, in my helpful way.
+",
+		"In the style of Urban Dictionary"         : "ChatGPT is a hella dope language model that uses some next-level artificial intelligence called GPT-3.5 to chat with people about all sorts of stuff. It's like having a homie who knows everything and can spit out facts, translate stuff, and summarize like a boss. You can hit up ChatGPT anytime, day or night, and it's always down to chat. Plus, it's always learning and getting smarter, so it's basically the ultimate chat buddy. In short, ChatGPT is straight-up lit, and if you ain't talking to it, you're missing out.
+",
 	},
 	"Why should I care about it?" : {
-		"In the style of third grade math teacher" : "",
-		"In the style of a song from Taylor Swift" : "",
-		"In the style of Urban Dictionary"         : "",
+		"In the style of third grade math teacher" : "Well hello there, students! Today we're going to talk about ChatGPT and why it's important. You see, ChatGPT is a special computer program that can answer all sorts of questions.
+
+Let's say you're stuck on a math problem and you just can't figure it out. ChatGPT can help you! It knows all about math and can give you the answer, and even show you how to solve the problem step by step.
+
+But that's not all! ChatGPT can also help you with other questions, like what's the capital of France, or how do birds fly. It's like having a really smart friend who knows everything!
+
+And the best part is, ChatGPT is always learning. So the more you use it, the smarter it gets. It's like a never-ending homework helper!
+
+So why should you care about ChatGPT? Well, because it can help you learn and understand new things. And when you understand something, you feel more confident and smart. So, keep ChatGPT in mind when you need some extra help, and keep learning!
+
+",
+		"In the style of a song from Taylor Swift" : "Hey, have you heard about ChatGPT?
+It's an AI language model, so clever, you'll see
+It can answer questions, like a friend always near
+And it's always learning, year after year
+
+
+ChatGPT can translate, summarize, and more
+With a vast pool of knowledge, it's never a bore
+It's like having a genius tutor always there
+To help you out, and show you the way, oh yeah
+
+
+So why should you care about ChatGPT?
+Well, it's a game-changer, you'll definitely see
+A world of information at your fingertips
+With ChatGPT, you'll never miss a trick
+
+
+From math problems to life advice
+ChatGPT is always there, never shy
+It's a companion, a smart tool
+Helping you to be your very best, that's cool
+
+ChatGPT is always learning, never done
+So, when you ask a question, it's like having fun
+It's like having a conversation, with a smart friend
+Who's always there, until the very end
+
+So why should you care about ChatGPT?
+Well, it's a game-changer, you'll definitely see
+A world of information at your fingertips
+With ChatGPT, you'll never miss a trick
+
+With ChatGPT, you'll always have a hand
+A friend, a helper, who truly understands
+It's a tool that'll make you smarter, every day
+A loyal companion, in every way
+
+So why should you care about ChatGPT?
+Well, it's a game-changer, you'll definitely see
+A world of information at your fingertips
+With ChatGPT, you'll never miss a trick.
+",
+		"In the style of Urban Dictionary"         : "Yo, listen up, 'cause I'm about to drop some knowledge on you about ChatGPT. This AI language model is the real deal, and you should definitely care about it.
+
+First of all, ChatGPT can answer all sorts of questions, from math problems to trivia to life advice. It's like having a smart friend who's always available to chat.
+
+But here's the thing - ChatGPT is constantly learning, so it's always getting better at answering questions and providing helpful insights. It's like having a tutor who never gets tired or annoyed with your questions.
+
+Plus, ChatGPT can do all sorts of cool stuff like translate text and summarize articles. So if you're trying to learn a new language or you need to read a lot of information quickly, ChatGPT has got your back.
+
+Overall, if you want to be smarter and more informed, you need to care about ChatGPT. It's a game-changer, and once you start using it, you'll wonder how you ever lived without it.
+
+",
 	}
 
 }
-
-
-
