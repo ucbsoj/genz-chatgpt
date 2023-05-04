@@ -66,7 +66,8 @@
     <script>
     $(function(){
 
-
+      var timeout;
+      
       $("select").on("change", function(){
         
         let question = $("select").eq(0).val();
@@ -75,6 +76,7 @@
         //both selects are something other than "Choose option
         if(question !== "Choose option" && style !== "Choose option"){
           
+          clearTimeout(timeout);
           
           let text = chatgpt[question][style];
           
@@ -91,7 +93,7 @@
                 $("#response").append(text.charAt(i));
                 i++;
               }
-              setTimeout(typeWriter, 2);
+              timeout = setTimeout(typeWriter, 2);
             }
           }
           
